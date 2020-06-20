@@ -1,7 +1,7 @@
 import xml.etree.ElementTree as ET
 import json
 
-year_list = ['17','20']
+year_list = ['17','18','19','20']
 
 
 def rss_generator():
@@ -10,8 +10,10 @@ def rss_generator():
     tree = ET.parse(rss_temp_file)
     rss = tree.getroot()
     channel = rss[0]
+
     for year in year_list:
         items = single_data_reader(year)
+        print(len(items))
         for item in items:
             channel.append(item)
     tree.write(rss_file, 'UTF-8')

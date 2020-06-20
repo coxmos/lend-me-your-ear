@@ -56,4 +56,4 @@ def get_information(path, year):
 
 
 if __name__ == '__main__':
-    get_information('/Users/zhangxiaoyu/Downloads/耳朵借我/2020', '2020')
+    get_information('/Users/zhangxiaoyu/Downloads/耳朵借我/2018', '2018')
