@@ -8,12 +8,6 @@
 
 
 
-
-
-
-
-
-
 ## 特点
 
 1. **使用方便**：只需一个 RSS 订阅链接，耳朵就能借给马世芳。 XD
@@ -36,7 +30,7 @@ https://lend-me-ears.github.io/rss.xml
 
 **以 iOS 苹果自家的 Podcast App 为例**
 
-<img src="./image/apple_podcast.png" style="zoom:50%;" />
+<img src="./image/apple_podcast.png" style="zoom:40%;" />
 
 **使用步骤如下**
 
@@ -45,6 +39,10 @@ https://lend-me-ears.github.io/rss.xml
 ![](./image/step.jpeg)
 
 
+
+**Enjoy ！**
+
+<img src="image/preview.png" style="zoom:50%;" />
 
 ##  App 推荐
 
@@ -82,20 +80,13 @@ https://lend-me-ears.github.io/rss.xml
 
 
 
-
-
-
-
-
-
 ## 计划 Todo
 
 1. 添加节目列表。
 2. 目录
-3. 截图
-4. 测试
-5. 提交 Spotify podcast
-6. 每一期根据马芳老师的 Blog，添加单期图片与文字介绍。单集网页
+4. 测试不同 App 情况。
+5. 提交 Spotify Podcast.
+6. 每一期根据马芳老师的 Blog，添加单期图片与文字介绍，单集网页。
 7. 坚持更新 XD
 
 
@@ -117,7 +108,7 @@ https://lend-me-ears.github.io/rss.xml
 
 4. [湾湾独立音乐速报](https://weibo.com/rebelfreak) 
 
-   > 一位大陆优秀的音乐博主。本人最初是通过该博主的分享，才有幸了解到「耳朵借我」这一节目，此项目灵感也是来源于此。「和你一样热爱台湾音乐！」
+   > 一位大陆优秀的音乐博主，「和你一样热爱台湾音乐！」。本人最初是通过该博主的分享，才有幸了解到「耳朵借我」这一节目，此项目灵感也是来源于此。
 
 5. [GoIndex-theme-acrou](https://github.com/Aicirou/goindex-theme-acrou) 
 
