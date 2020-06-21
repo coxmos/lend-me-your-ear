@@ -8,7 +8,7 @@
 
 
 
-[TOC]
+
 
 
 
@@ -29,7 +29,7 @@
 复制以下 RSS 链接，用支持 RSS 功能的播客（Podcast）App进行订阅收听。
 
 ```plain
-https://lend-me-ears.github.io/lend-me-ears/rss.xml
+https://lend-me-ears.github.io/rss.xml
 ```
 
 
@@ -91,8 +91,12 @@ https://lend-me-ears.github.io/lend-me-ears/rss.xml
 ## 计划 Todo
 
 1. 添加节目列表。
-2. 每一期根据马芳老师的 Blog，添加单期图片与文字介绍。
-3. 坚持更新 XD
+2. 目录
+3. 截图
+4. 测试
+5. 提交 Spotify podcast
+6. 每一期根据马芳老师的 Blog，添加单期图片与文字介绍。
+7. 坚持更新 XD
 
 
 
@@ -109,9 +113,9 @@ https://lend-me-ears.github.io/lend-me-ears/rss.xml
 
 2. [耳朵借給馬世芳－電台靴腿小組](https://www.facebook.com/groups/258827734532615) 
 
-   > 热爱音乐、热爱「耳朵借我」的朋友们的聚集地。
+   > 热爱音乐、热爱「耳朵借我」的朋友们的聚集地。   
 
-3.  [@Alex Chow](https://www.facebook.com/hoiking) 
+3.  [@Alex Chow](https://www.facebook.com/hoiking)  
 
    > 此项目原始音频存档来自于这位听友，感谢您的辛苦录制与无私分享。
 
