@@ -1,7 +1,7 @@
 import xml.etree.ElementTree as ET
 import json
 
-year_list = ['17','18','19','20']
+year_list = ['17', '18', '19', '20']
 
 
 def rss_generator():
@@ -27,6 +27,7 @@ def single_data_reader(year):
         item_list.append(getItem(info))
     return item_list
 
+
 def get_info_list(year):
     json_file = '../data/data_20' + year + '.json'
     res = []
@@ -47,6 +48,7 @@ def get_info_list(year):
         }
         res.append(info)
     return res
+
 
 def getItem(info):
     """
@@ -93,9 +95,7 @@ def test_duplication(year):
     print(len(date_set))
 
 
-
 if __name__ == '__main__':
-    # rss_generator()
-    for year in year_list:
-        test_duplication(year)
-
+    rss_generator()
+    # for year in year_list:
+    #     test_duplication(year)
