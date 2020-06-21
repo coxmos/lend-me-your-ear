@@ -4,7 +4,7 @@
 
 
 
-<img src="./image/avatar.png" alt="avatar" style="zoom:80%;" />
+<img src="https://cloud.lend-me-ears.workers.dev/0:/image/avatar.png" alt="avatar" style="zoom:80%;" />
 
 
 
@@ -30,19 +30,19 @@ https://lend-me-ears.github.io/rss.xml
 
 **以 iOS 苹果自家的 Podcast App 为例**
 
-<img src="./image/apple_podcast.png" style="zoom:40%;" />
+<img src="https://cloud.lend-me-ears.workers.dev/0:/image/apple_podcast.png" style="zoom:40%;" />
 
 **使用步骤如下**
 
 
 
-![](./image/step.jpeg)
+![](https://cloud.lend-me-ears.workers.dev/0:/image/step.jpeg)
 
 
 
 **Enjoy ！**
 
-<img src="image/preview.png" style="zoom:50%;" />
+<img src="https://cloud.lend-me-ears.workers.dev/0:/image/preview.png" style="zoom:50%;" />
 
 ##  App 推荐
 
@@ -50,6 +50,7 @@ https://lend-me-ears.github.io/rss.xml
 
 1. [RadioPublic](https://radiopublic.com) 
 2. [Pocket Casts](https://www.pocketcasts.com)
+3. [小宇宙](https://www.xiaoyuzhoufm.com)
 
 ### iOS only
 
@@ -62,7 +63,7 @@ https://lend-me-ears.github.io/rss.xml
 
 
 
-**不限于以上 App，可以使用自己喜欢的 Podcast 软件，只要支持 RSS 订阅功能。**
+**不限于以上 App，可以使用自己喜欢的软件，只要支持 RSS 订阅功能即可。**
 
 
 
@@ -83,7 +84,6 @@ https://lend-me-ears.github.io/rss.xml
 ## 计划 Todo
 
 1. 添加节目列表。
-2. 目录
 4. 测试不同 App 情况。
 5. 提交 Spotify Podcast.
 6. 每一期根据马芳老师的 Blog，添加单期图片与文字介绍，单集网页。
