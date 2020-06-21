@@ -95,7 +95,7 @@ https://lend-me-ears.github.io/rss.xml
 3. 截图
 4. 测试
 5. 提交 Spotify podcast
-6. 每一期根据马芳老师的 Blog，添加单期图片与文字介绍。
+6. 每一期根据马芳老师的 Blog，添加单期图片与文字介绍。单集网页
 7. 坚持更新 XD
 
 
@@ -113,15 +113,11 @@ https://lend-me-ears.github.io/rss.xml
 
 2. [耳朵借給馬世芳－電台靴腿小組](https://www.facebook.com/groups/258827734532615) 
 
-   > 热爱音乐、热爱「耳朵借我」的朋友们的聚集地。   
-
-3.  [@Alex Chow](https://www.facebook.com/hoiking)  
-
-   > 此项目原始音频存档来自于这位听友，感谢您的辛苦录制与无私分享。
+   > 本项目原始音频存档来自于该小组，感谢听友们的辛苦录制与无私分享。
 
 4. [湾湾独立音乐速报](https://weibo.com/rebelfreak) 
 
-   > 一位大陆优秀的音乐博主，本人最初是通过该博主的分享，才有幸了解到「耳朵借我」这一节目，真的特别感谢。「和你一样热爱台湾音乐！」
+   > 一位大陆优秀的音乐博主。本人最初是通过该博主的分享，才有幸了解到「耳朵借我」这一节目，此项目灵感也是来源于此。「和你一样热爱台湾音乐！」
 
 5. [GoIndex-theme-acrou](https://github.com/Aicirou/goindex-theme-acrou) 
 
