@@ -5,13 +5,11 @@
     <channel>
         <title>耳朵借我</title>
         <itunes:author>馬世芳</itunes:author>
-        <description>电台节目「耳朵借我」非官方存档。</description>
         <link>https://lend-me-ears.github.io</link>
         <itunes:email>lend.me.ears@gmail.com</itunes:email>
-        <itunes:image href="https://raw.githubusercontent.com/lend-me-ears/lend-me-ears/master/avatar.png"/>
+        <itunes:image href="https://lend-me-ears.github.io/image/avatar.png"/>
         <language>zh</language>
         <copyright>&#169; 2020 耳朵借我</copyright>
-
 
         <itunes:type>episodic</itunes:type>
         <itunes:owner>
@@ -23,6 +21,10 @@
         <itunes:explicit>false</itunes:explicit>
         <itunes:complete>no</itunes:complete>
 
+        <description>
+            电台节目「耳朵借我」非官方存档。
+             <![CDATA[<a href="https://lend-me-ears.github.io">项目地址</a>]]>。
+        </description>
 
     </channel>
 </rss>
