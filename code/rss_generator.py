@@ -20,26 +20,33 @@ def rss_generator():
 
 
 def single_data_reader(year):
-    json_file = '../data/data_20' + year + '.json'
     item_list = []
-    with open(json_file) as f:
-        ep_list = json.loads(f.read())
-        for ep in ep_list:
-            info = {
-                'image': 'https://raw.githubusercontent.com/lend-me-ears/lend-me-ears/master/avatar.png',
-                'description': ep['name'] + '    ' + ep['date'],
-                'link': 'https://github.com/lend-me-ears/lend-me-ears',
-                'length': str(ep['size']),
-                'file': ep['url'],
-                'title': ep['name'],
-                'guid': ep['guid'],
-                'date': ep['timestamp'],
-                'duration':str(ep['duration'])
-            }
-            item = getItem(info)
-            item_list.append(item)
+
+    infolist = get_info_list(year)
+    for info in infolist:
+        item_list.append(getItem(info))
     return item_list
 
+def get_info_list(year):
+    json_file = '../data/data_20' + year + '.json'
+    res = []
+    ep_list = []
+    with open(json_file) as f:
+        ep_list = json.loads(f.read())
+    for ep in ep_list:
+        info = {
+            'image': 'https://raw.githubusercontent.com/lend-me-ears/lend-me-ears/master/avatar.png',
+            'description': ep['name'] + '    ' + ep['date'],
+            'link': 'https://github.com/lend-me-ears/lend-me-ears',
+            'length': str(ep['size']),
+            'file': ep['url'],
+            'title': ep['name'],
+            'guid': ep['guid'],
+            'date': ep['timestamp'],
+            'duration': str(ep['duration'])
+        }
+        res.append(info)
+    return res
 
 def getItem(info):
     """
@@ -73,5 +80,22 @@ def getItem(info):
     return item
 
 
+def test_duplication(year):
+    """
+    测试是否有重复日期
+    :param year: 年份
+    :return: None
+    """
+    date_set = set()
+    info_list = get_info_list(year)
+    for info in info_list:
+        date_set.add(info['date'])
+    print(len(date_set))
+
+
+
 if __name__ == '__main__':
-    rss_generator()
+    # rss_generator()
+    for year in year_list:
+        test_duplication(year)
+

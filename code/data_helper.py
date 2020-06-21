@@ -27,8 +27,8 @@ def get_information(path, year):
     :return: None
     """
     res = []
-    # base_url = 'https://one.lend-me-ears.workers.dev/?file='
-    base_url = 'https://drive.lend-me-ears.workers.dev'
+
+    base_url = 'https://cloud.lend-me-ears.workers.dev/0:'
     filelist = os.listdir(path)
     for file in filelist:
         if file.find('.mp3') < 0:  # 跳过非音频文件
