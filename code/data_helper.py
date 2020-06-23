@@ -56,7 +56,7 @@ def get_information(path, year):
 
 
 if __name__ == '__main__':
-    year_list = ['2017','2018','2019','2020']
-    path = '~/Library/Mobile\ Documents/com\~apple\~CloudDocs/归档/耳朵借我/'
+    year_list = ['2017', '2018', '2019', '2020']
+    path = '/Users/zhangxiaoyu/Library/Mobile Documents/com~apple~CloudDocs/归档/耳朵借我/'
     for year in year_list:
-        get_information(path+year, year)
+        get_information(path + year, year)

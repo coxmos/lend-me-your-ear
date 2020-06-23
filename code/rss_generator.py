@@ -36,7 +36,7 @@ def get_info_list(year):
         ep_list = json.loads(f.read())
     for ep in ep_list:
         info = {
-            'image': 'https://lend-me-ears.github.io/image/avatar.png',
+            'image': 'https://cloud.lend-me-ears.workers.dev/0:/image/avatar.png',
             'description': "暂无介绍，后期会补上，敬请谅解。",
             'link': 'https://lend-me-ears.github.io',
 
