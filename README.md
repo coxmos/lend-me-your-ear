@@ -69,9 +69,9 @@ https://lend-me-ears.github.io/rss.xml
 
 ## 节目列表
 
-- 2020（目前 49 期）
+- 2020（目前 51 期）
 
-  更新至 2020/06/16，持续更新中...
+  更新至 2020/06/29，持续更新中...
 
 - 2019（共 105 期全）
 
@@ -83,11 +83,15 @@ https://lend-me-ears.github.io/rss.xml
 
 ## 计划 Todo
 
-1. 添加节目列表。
-4. 测试不同 App 情况。
-5. 提交 Spotify Podcast.
-6. 每一期根据马芳老师的 Blog，添加单期图片与文字介绍，单集网页。
-7. 坚持更新 XD
+1. 测试不同 App 情况。
+2. 提交 Spotify Podcast.
+3. 每一期根据马芳老师的 Blog，添加单期图片与文字介绍。
+4. 2017 年添加文字介绍，honeypie
+5. 补上 2018 缺失的文字介绍。
+6. rss_template 添加 cdata
+4. 爬取 medium 图片，保存到本地
+5. 考虑对象云存储
+6. 坚持更新 XD
 
 
 
