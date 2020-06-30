@@ -1,8 +1,9 @@
 import json
-from email import utils
+import os
 import time
 from datetime import datetime
-import os
+from email import utils
+
 from mutagen.mp3 import MP3
 
 
@@ -19,12 +20,30 @@ def get_timestamp(date):
     return res
 
 
+def add_content(year='2017'):
+    date_content_dir = {}
+    with open('../data/medium/medium.json') as f:
+        content_list = json.loads(f.read())
+    for content in content_list:
+        date_content_dir[content['date']] = content['content']
+
+    with open('../data/data_' + year + '.json') as f:
+        datalist = json.loads(f.read())
+    for data in datalist:
+        if data['date'] in date_content_dir.keys():
+            data['content'] = date_content_dir.get(data['date'])
+        else:
+            data['content'] = ''
+    with open('../data/ddata_' + year + '.json', 'w') as f:
+        f.write(json.dumps(datalist, ensure_ascii=False))
+
+
+
 def get_information(path, year):
     """
     爬取文件列表数据
     :param path: 文件夹
     :param year: 年份
-    :return: None
     """
     res = []
 
@@ -51,12 +70,13 @@ def get_information(path, year):
             'guid': guid
         })
 
-    with open('../data/data_' + year + '.json', 'w') as f:
-        f.write(json.dumps(res, ensure_ascii=False))
+    with open('../data/data_' + year + '.json', 'r+') as f:
+        data_list = json.loads(f.read())
+        data_list.extend(res)
+        f.write(json.dumps(data_list, ensure_ascii=False))
+        print(len(data_list))
 
 
 if __name__ == '__main__':
-    year_list = ['2017', '2018', '2019', '2020']
-    path = '/Users/zhangxiaoyu/Library/Mobile Documents/com~apple~CloudDocs/归档/耳朵借我/'
-    for year in year_list:
-        get_information(path + year, year)
+    add_content('2020')
+    # get_information('/Users/zhangxiaoyu/Downloads','2020')
