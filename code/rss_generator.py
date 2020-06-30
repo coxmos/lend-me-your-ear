@@ -41,7 +41,7 @@ def get_info_list(year):
     for ep in ep_list:
         info = {
             'image': 'https://cloud.lend-me-ears.workers.dev/0:/image/avatar.png',
-            'description': ep['content'] if ep['content'] == '' else "暂无介绍，后期会补上，敬请谅解。",
+            'description': ep['content'] if ep['content'] != '' else "暂无介绍，后期会补上，敬请谅解。",
             'link': 'https://lend-me-ears.github.io',
 
             'length': str(ep['size']),
