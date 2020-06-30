@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0"
      xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd"
-     xmlns:content="http://purl.org/rss/1.0/modules/content/">
+>
     <channel>
         <title>耳朵借我</title>
         <itunes:author>馬世芳</itunes:author>
@@ -9,7 +9,7 @@
         <itunes:email>lend.me.ears@gmail.com</itunes:email>
         <itunes:image href="https://cloud.lend-me-ears.workers.dev/0:/image/avatar.png"/>
         <language>zh</language>
-        <copyright>&#169; 2020 耳朵借我</copyright>
+        <copyright><![CDATA[&#169; 2020 耳朵借我]]></copyright>
 
         <itunes:type>episodic</itunes:type>
         <itunes:owner>
@@ -22,8 +22,10 @@
         <itunes:complete>no</itunes:complete>
 
         <description>
-            电台节目「耳朵借我」非官方存档。
-            https://lend-me-ears.github.io
+            <![CDATA[
+                电台节目「耳朵借我」非官方存档。
+                https://lend-me-ears.github.io
+            ]]>
         </description>
 
     </channel>
