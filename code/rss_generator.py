@@ -1,8 +1,12 @@
-import xml.etree.ElementTree as ET
 import json
+import xml.etree.ElementTree as ET
 
 year_list = ['17', '18', '19', '20']
 
+
+def cdata(text):
+    res = '<![CDATA[' + text + ']]>'
+    return res
 
 def rss_generator():
     rss_temp_file = '../rss/rss_template.xml'
@@ -37,7 +41,7 @@ def get_info_list(year):
     for ep in ep_list:
         info = {
             'image': 'https://cloud.lend-me-ears.workers.dev/0:/image/avatar.png',
-            'description': "暂无介绍，后期会补上，敬请谅解。",
+            'description': ep['content'] if ep['content'] == '' else "暂无介绍，后期会补上，敬请谅解。",
             'link': 'https://lend-me-ears.github.io',
 
             'length': str(ep['size']),
@@ -68,9 +72,9 @@ def getItem(info):
     enclosure = ET.SubElement(item, 'enclosure', {'length': info['length'], 'type': 'audio/mpeg', 'url': info['file']})
 
     title = ET.SubElement(item, 'title')
-    title.text = info['title']
+    title.text = cdata(info['title'])
     description = ET.SubElement(item, 'description')
-    description.text = info['description']
+    description.text = cdata(info['description'])
     link = ET.SubElement(item, 'link')
     link.text = info['link']
     guid = ET.SubElement(item, 'guid')
