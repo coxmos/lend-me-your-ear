@@ -87,8 +87,7 @@ https://lend-me-ears.github.io/rss.xml
 2. 提交 Spotify Podcast.
 3. 每一期根据马芳老师的 Blog，添加单期图片与文字介绍。
 4. 2017 年添加文字介绍，honeypie
-5. 补上 2018 缺失的文字介绍。
-6. rss_template 添加 cdata
+5. 补上 2018 缺失的文字介绍 todo-page。
 4. 爬取 medium 图片，保存到本地
 5. 考虑对象云存储
 6. 坚持更新 XD
