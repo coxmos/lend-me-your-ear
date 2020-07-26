@@ -1,0 +1,48 @@
+<rss xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" version="2.0">
+    <channel>
+        <title>耳朵借我</title>
+        <itunes:author>馬世芳</itunes:author>
+        <link>https://ear.xiaoyuu.ga</link>
+        <itunes:email>ear@xiaoyuu.ga</itunes:email>
+        <itunes:image href="https://cdn.jsdelivr.net/gh/coxmos/lend-me-your-ear/avatar.png" />
+        <language>zh</language>
+        <copyright>&amp;#169; 2020 耳朵借我</copyright>
+
+        <itunes:type>episodic</itunes:type>
+        <itunes:owner>
+            <itunes:name>耳朵借我</itunes:name>
+            <itunes:email>ear@xiaoyuu.ga</itunes:email>
+        </itunes:owner>
+
+        <itunes:category text="Music" />
+        <itunes:explicit>false</itunes:explicit>
+        <itunes:complete>no</itunes:complete>
+
+        <description>
+
+            电台节目「耳朵借我」非官方存档。
+            https://ear.xiaoyuu.ga
+
+        </description>
+
+        <item>
+            <itunes:episodeType>full</itunes:episodeType>
+            <itunes:explicit>false</itunes:explicit>
+            <enclosure length="92067632" type="audio/mpeg"
+                       url="https://cloud.lend-me-ears.workers.dev/0:/2017/20171212 為翁嘉銘送行.mp3"/>
+            <title><![CDATA[20171212 為翁嘉銘送行]]></title>
+            <description><![CDATA[<div class="z ab ac ae af du ah ai"> 3 min read<figure><img height="427" role="presentation" sizes="459px"
+                src="https://miro.medium.com/max/918/1*kxrqcrSztiEQOKK6K1SUYA.jpeg"
+                srcset="https://miro.medium.com/max/552/1*kxrqcrSztiEQOKK6K1SUYA.jpeg 276w,
+                https://miro.medium.com/max/918/1*kxrqcrSztiEQOKK6K1SUYA.jpeg 459w" width="459"/><figcaption>翁嘉銘（1962–2017）</figcaption></figure><p><strong>週一、週二
+                18:00–20:00(CST) FM96.3 Alian 原住民族廣播電台。<br/></strong>亦可利用 hichannel <a
+                href="http://hichannel.hinet.net/radio/index.do?id=1574" target="_blank">網路收聽</a>。歡迎加入<a
+                href="https://www.facebook.com/groups/258827734532615/" target="_blank">FB聽友小組</a>，分享節目錄音。</p></div>]]>
+            </description>
+            <link>https://ear.xiaoyuu.ga</link>
+            <guid>a9206763220171212</guid>
+            <pubDate>Tue, 12 Dec 2017 10:00:00 -0000</pubDate>
+            <itunes:duration>7303</itunes:duration>
+        </item>
+    </channel>
+</rss>
