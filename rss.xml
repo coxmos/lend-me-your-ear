@@ -1,22 +1,22 @@
-<rss xmlns:ns0="http://www.itunes.com/dtds/podcast-1.0.dtd" version="2.0">
+<rss xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" version="2.0">
     <channel>
         <title>耳朵借我</title>
-        <ns0:author>馬世芳</ns0:author>
+        <itunes:author>馬世芳</itunes:author>
         <link>https://lend-me-ears.github.io</link>
-        <ns0:email>lend.me.ears@gmail.com</ns0:email>
-        <ns0:image href="https://cloud.lend-me-ears.workers.dev/0:/image/avatar.png" />
+        <itunes:email>lend.me.ears@gmail.com</itunes:email>
+        <itunes:image href="https://cloud.lend-me-ears.workers.dev/0:/image/avatar.png" />
         <language>zh</language>
         <copyright>&amp;#169; 2020 耳朵借我</copyright>
 
-        <ns0:type>episodic</ns0:type>
-        <ns0:owner>
-            <ns0:name>耳朵借我</ns0:name>
-            <ns0:email>lend.me.ears@gmail.com</ns0:email>
-        </ns0:owner>
+        <itunes:type>episodic</itunes:type>
+        <itunes:owner>
+            <itunes:name>耳朵借我</itunes:name>
+            <itunes:email>lend.me.ears@gmail.com</itunes:email>
+        </itunes:owner>
 
-        <ns0:category text="Music" />
-        <ns0:explicit>false</ns0:explicit>
-        <ns0:complete>no</ns0:complete>
+        <itunes:category text="Music" />
+        <itunes:explicit>false</itunes:explicit>
+        <itunes:complete>no</itunes:complete>
 
         <description>
 
