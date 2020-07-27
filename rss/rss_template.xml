@@ -1,31 +1,28 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<rss version="2.0"
-     xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd"
->
+<rss xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" version="2.0">
     <channel>
         <title>耳朵借我</title>
         <itunes:author>馬世芳</itunes:author>
-        <link>https://lend-me-ears.github.io</link>
-        <itunes:email>lend.me.ears@gmail.com</itunes:email>
-        <itunes:image href="https://cloud.lend-me-ears.workers.dev/0:/image/avatar.png"/>
+        <link>https://ear.xiaoyuu.ga</link>
+        <itunes:email>ear@xiaoyuu.ga</itunes:email>
+        <itunes:image href="https://cdn.jsdelivr.net/gh/coxmos/lend-me-your-ear/avatar.png" />
         <language>zh</language>
-        <copyright><![CDATA[&#169; 2020 耳朵借我]]></copyright>
+        <copyright>&amp;#169; 2020 耳朵借我</copyright>
 
         <itunes:type>episodic</itunes:type>
         <itunes:owner>
             <itunes:name>耳朵借我</itunes:name>
-            <itunes:email>lend.me.ears@gmail.com</itunes:email>
+            <itunes:email>ear@xiaoyuu.ga</itunes:email>
         </itunes:owner>
 
-        <itunes:category text="Music"></itunes:category>
+        <itunes:category text="Music" />
         <itunes:explicit>false</itunes:explicit>
         <itunes:complete>no</itunes:complete>
 
         <description>
-            <![CDATA[
-                电台节目「耳朵借我」非官方存档。
-                https://lend-me-ears.github.io
-            ]]>
+
+            电台节目「耳朵借我」非官方存档。
+            https://ear.xiaoyuu.ga
+            ear@xiaoyuu.ga
         </description>
 
     </channel>
