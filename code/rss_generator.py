@@ -1,8 +1,6 @@
 import json
 import xml.etree.ElementTree as ET
 
-year_list = ['17', '18', '19', '20']
-
 
 # def cdata(text):
 #     res = '<![CDATA[' + text + ']]>'
@@ -15,18 +13,17 @@ def rss_generator():
     rss = tree.getroot()
     channel = rss[0]
 
-    for year in year_list:
-        items = single_data_reader(year)
-        print(len(items))
-        for item in items:
-            channel.append(item)
+    items = get_items()
+    print(len(items))
+    for item in items:
+        channel.append(item)
     tree.write(rss_file, 'UTF-8')
 
 
-def single_data_reader(year):
+def get_items():
     item_list = []
 
-    infolist = get_info_list(year)
+    infolist = get_info_list()
     for info in infolist:
         item_list.append(getItem(info))
     return item_list
@@ -49,17 +46,17 @@ def single_data_reader(year):
 # < itunes: duration > 7303 < / itunes: duration >
 # < / item >
 
-# Todo 单集封面 单集网页 介绍单集网页
-def get_info_list(year):
-    json_file = '../data/data_20' + year + '.json'
+# Todo 单集封面 单集网页 介绍单集网页 网页替换为 medium.xiaoyuu.ga https://honeypie.wordpress.com/page/2/?source=post_page-----c85918e998db----------------------
+def get_info_list():
+    json_file = '../data/data.json'
     res = []
     with open(json_file) as f:
         ep_list = json.loads(f.read())
     for ep in ep_list:
         info = {
-            'image': 'https://cdn.jsdelivr.net/gh/coxmos/lend-me-your-ear/avatar.png',
-            'description': "本集详细介绍以及歌单列表请查看网页",
-            'link': 'https://lend-me-ears.github.io',
+            'image': ep['image'],
+            'description': ep['content']+f"\n\n本集详细介绍以及歌单列表请查看网页:{ep['page']}",
+            'link': ep['page'],
 
             'length': str(ep['size']),
             'file': ep['url'],
@@ -104,14 +101,14 @@ def getItem(info):
     return item
 
 
-def test_duplication(year):
+def test_duplication():
     """
     测试是否有重复日期
     :param year: 年份
     :return: None
     """
     date_set = set()
-    info_list = get_info_list(year)
+    info_list = get_info_list()
     for info in info_list:
         date_set.add(info['date'])
     print(len(info_list))
@@ -120,4 +117,5 @@ def test_duplication(year):
 
 if __name__ == '__main__':
     rss_generator()
+    # test_duplication()
 
