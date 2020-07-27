@@ -1,17 +1,17 @@
 # 耳朵借我
 
-此 Repo 为网友创建并维护，非官方，旨在为两岸三地的听众朋友提供便捷的收听方式。
+此 Repo 为热心网友创建并维护，非官方，旨在为两岸三地的听众朋友提供便捷的收听方式。
 
 
 
-<img src="https://cloud.lend-me-ears.workers.dev/0:/image/avatar.png" alt="avatar" style="zoom:80%;" />
+<img src="https://cdn.jsdelivr.net/gh/coxmos/lend-me-your-ear/avatar.png" alt="avatar" style="zoom:80%;" />
 
 
 
 ## 特点
 
 1. **使用方便**：只需一个 RSS 订阅链接，耳朵就能借给马世芳。 XD
-2. **期数齐全**：手动整理检查归档，从 2017/08/14 第一期起至今，不错过任何一期。
+2. **期数齐全**：手动整理检查归档，从 2017/08/14 开播起至今，不错过任何一期。
 3. **独立搭建**：自建音频 hosting，可用任意支持 RSS 功能的 Podcast App 进行订阅收听。
 4. **无审查**：不依赖任何 Podcast 平台（希望我们能在自由的地方相见。
 5. **免翻墙**：经测试，大陆地区体验良好。
@@ -23,38 +23,40 @@
 复制以下 RSS 链接，用支持 RSS 功能的播客（Podcast）App进行订阅收听。
 
 ```plain
-https://lend-me-ears.github.io/rss.xml
+https://ear.xiaoyuu.ga/rss.xml
 ```
 
 
 
 **以 iOS 苹果自家的 Podcast App 为例**
 
-<img src="https://cloud.lend-me-ears.workers.dev/0:/image/apple_podcast.png" style="zoom:40%;" />
+<img src="https://cdn.jsdelivr.net/gh/coxmos/lend-me-your-ear/static/apple_podcast.png" style="zoom:40%;" />
 
 **使用步骤如下**
 
 
 
-![](https://cloud.lend-me-ears.workers.dev/0:/image/step.jpeg)
+![](https://cdn.jsdelivr.net/gh/coxmos/lend-me-your-ear/static/step.jpeg)
 
 
 
 **Enjoy ！**
 
-<img src="https://cloud.lend-me-ears.workers.dev/0:/image/preview.png" style="zoom:50%;" />
+<img src="https://cdn.jsdelivr.net/gh/coxmos/lend-me-your-ear/static/preview.png" style="zoom:50%;" />
 
 ##  App 推荐
 
 ### iOS & Android
 
-1. [RadioPublic](https://radiopublic.com) 
+1. [CastBox](https://castbox.fm) 
 2. [Pocket Casts](https://www.pocketcasts.com)
 3. [小宇宙](https://www.xiaoyuzhoufm.com)
 
 ### iOS only
 
 1. [Apple Podcasts](https://apps.apple.com/cn/app/id525463029)
+2. [Overcast](https://overcast.fm)
+3. [Castro](https://castro.fm)
 
 ### Android only
 
@@ -85,19 +87,15 @@ https://lend-me-ears.github.io/rss.xml
 
 1. 测试不同 App 情况。
 2. 提交 Spotify Podcast.
-3. 每一期根据马芳老师的 Blog，添加单期图片与文字介绍。
-4. 2017 年添加文字介绍，honeypie
-5. 补上 2018 缺失的文字介绍 todo-page。
-4. 爬取 medium 图片，保存到本地
-5. 考虑对象云存储
 6. 坚持更新 XD
 
 
 
 ## 相关链接
 
-1. 马芳老师 Blog：[Medium](https://medium.com/@mafang)
-2. 原始音频文件下载：[链接](https://cloud.lend-me-ears.workers.dev) ，**仅限个人使用，严禁用于商业用途。** 
+1. 马芳老师 Blog（现）：[Medium](https://medium.com/@mafang)
+2. 马芳老师 Blog（旧）：[WordPress](https://honeypie.wordpress.com)
+3. 原始音频文件下载：[链接](https://one.xiaoyuu.ga/耳朵借我) ，**仅限个人使用，严禁用于商业用途。** 
 
 
 
@@ -113,15 +111,10 @@ https://lend-me-ears.github.io/rss.xml
 
    > 一位大陆优秀的音乐博主，「和你一样热爱台湾音乐！」。本人最初是通过该博主的分享，才有幸了解到「耳朵借我」这一节目，此项目灵感也是来源于此。
 
-5. [GoIndex-theme-acrou](https://github.com/Aicirou/goindex-theme-acrou) 
-
-   > 一个好看、强大的 Google Drive Index 项目。
-
 6. GitHub :)
 
 
 
 ## 联系
 
-如有问题或者建议，请直接提 [issue](https://github.com/lend-me-ears/lend-me-ears/issues) ，或发邮件至[lend.me.ears@gmail.com](mailto:lend.me.ears@gmail.com])  .
-
+如有问题或者建议，请直接提 [issue](https://github.com/coxmos/lend-me-your-ear/issues) ，或发邮件至 [ear@xiaoyuu.ga](mailto:ear@xiaoyuu.ga)  .
