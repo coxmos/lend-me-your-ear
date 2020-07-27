@@ -97,10 +97,11 @@ def test_duplication(year):
     info_list = get_info_list(year)
     for info in info_list:
         date_set.add(info['date'])
+    print(len(info_list))
     print(len(date_set))
 
 
 if __name__ == '__main__':
-    rss_generator()
-    # for year in year_list:
-    #     test_duplication(year)
+    # rss_generator()
+    for year in year_list:
+        test_duplication(year)
