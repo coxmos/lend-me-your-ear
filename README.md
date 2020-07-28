@@ -8,19 +8,35 @@
 
 
 
+
+
+### 通知
+
+本项目在 Spotify 正式上线啦 🎉
+
+Spotify 用户请直接搜索「耳朵借我」，即可收听节目～
+
+<img src="https://cdn.jsdelivr.net/gh/coxmos/lend-me-your-ear/static/spotify.png" alt="avatar" style="zoom:60%;" />
+
+
+
 ## 特点
 
 1. **使用方便**：只需一个 RSS 订阅链接，耳朵就能借给马世芳。 XD
-2. **期数齐全**：手动整理检查归档，从 2017/08/14 开播起至今，不错过任何一期。
+2. **期数齐全**：手动整理检查归档，从 2017/08/14 开播至今，不错过任何一期。
 3. **独立搭建**：自建音频 hosting，可用任意支持 RSS 功能的 Podcast App 进行订阅收听。
 4. **无审查**：不依赖任何 Podcast 平台（希望我们能在自由的地方相见。
-5. **免翻墙**：经测试，大陆地区体验良好。
-6. **稳定安全**：文件存储在 Google Drive 中，同时备份在 OneDrive，iCloud 以及本地。不用担心失效，不可用等问题。
+5. **免翻墙**：音频和图片通过 CDN 加速，同时镜像了 Medium 和马芳老师的 WordPress，大陆地区体验良好。
+6. **稳定安全**：文件存储在 Google Drive 中，同时备份在 OneDrive，iCloud 以及本地。不用担心失效等问题。
+
+
+
+
 
 
 
 ## 使用方法
-复制以下 RSS 链接，用支持 RSS 功能的播客（Podcast）App进行订阅收听。
+复制以下 RSS 链接，用支持 RSS 功能的播客 App 进行订阅收听。
 
 ```plain
 https://ear.xiaoyuu.ga/rss.xml
@@ -42,7 +58,7 @@ https://ear.xiaoyuu.ga/rss.xml
 
 **Enjoy ！**
 
-<img src="https://cdn.jsdelivr.net/gh/coxmos/lend-me-your-ear/static/preview.png" style="zoom:50%;" />
+<img src="https://cdn.jsdelivr.net/gh/coxmos/lend-me-your-ear/static/preview.png" style="zoom:60%;" />
 
 ##  App 推荐
 
@@ -86,15 +102,14 @@ https://ear.xiaoyuu.ga/rss.xml
 ## 计划 Todo
 
 1. 测试不同 App 情况。
-2. 提交 Spotify Podcast.
-6. 坚持更新 XD
+2. 坚持更新 XD
 
 
 
 ## 相关链接
 
-1. 马芳老师 Blog（现）：[Medium](https://medium.com/@mafang)
-2. 马芳老师 Blog（旧）：[WordPress](https://honeypie.wordpress.com)
+1. 马芳老师 Blog（现）：[Medium](https://medium.com/@mafang) ,  [镜像站](https://medium.xiaoyuu.ga/@mafang)
+2. 马芳老师 Blog（旧）：[WordPress](https://honeypie.wordpress.com) , [镜像站](https://honeypie.xiaoyuu.ga)
 3. 原始音频文件下载：[链接](https://one.xiaoyuu.ga/耳朵借我) ，**仅限个人使用，严禁用于商业用途。** 
 
 
@@ -107,11 +122,11 @@ https://ear.xiaoyuu.ga/rss.xml
 
    > 本项目原始音频存档来自于该小组，感谢听友们的辛苦录制与无私分享。
 
-4. [湾湾独立音乐速报](https://weibo.com/rebelfreak) 
+3. [湾湾独立音乐速报](https://weibo.com/rebelfreak) 
 
    > 一位大陆优秀的音乐博主，「和你一样热爱台湾音乐！」。本人最初是通过该博主的分享，才有幸了解到「耳朵借我」这一节目，此项目灵感也是来源于此。
 
-6. GitHub :)
+4. 互联网 :)
 
 
 
