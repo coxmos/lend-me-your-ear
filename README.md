@@ -133,3 +133,18 @@ https://ear.xiaoyuu.ga/rss.xml
 ## 联系
 
 如有问题或者建议，请直接提 [issue](https://github.com/coxmos/lend-me-your-ear/issues) ，或发邮件至 [ear@xiaoyuu.ga](mailto:ear@xiaoyuu.ga)  .
+
+
+
+
+
+<script src='//unpkg.com/valine/dist/Valine.min.js'></script>
+<div id="vcomments"></div>
+<script>
+  new Valine({
+    el: '#vcomments',
+    appId: 'YyRaVGADEqm0orpU5LMt8e57-MdYXbMMI',
+    appKey: 'e7TXgv9xBumHshzRfG0TzXa3'
+  })
+</script>
+
