@@ -140,6 +140,10 @@ https://ear.xiaoyuu.ga/rss.xml
 
 <script src='//unpkg.com/valine/dist/Valine.min.js'></script>
 <div id="vcomments"></div>
+<span id="ear" class="leancloud_visitors" data-flag-title="ear">
+    <em class="post-meta-item-text">访问次数 </em>
+    <i class="leancloud-visitors-count">1</i>
+</span>
 <script>
   new Valine({
     el: '#vcomments',
