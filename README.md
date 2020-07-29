@@ -66,7 +66,7 @@ https://ear.xiaoyuu.ga/rss.xml
 
 1. [CastBox](https://castbox.fm) 
 2. [Pocket Casts](https://www.pocketcasts.com)
-3. [小宇宙](https://www.xiaoyuzhoufm.com)
+3. [SoundOn聲浪](https://www.soundon.fm)
 
 ### iOS only
 
