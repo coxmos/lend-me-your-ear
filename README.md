@@ -132,7 +132,7 @@ https://ear.xiaoyuu.ga/rss.xml
 
 ## 联系
 
-如有问题或者建议，请直接提 [issue](https://github.com/coxmos/lend-me-your-ear/issues) ，或发邮件至 [ear@xiaoyuu.ga](mailto:ear@xiaoyuu.ga)  .
+如有问题或者建议，请直接在下方留言，或者提 [issue](https://github.com/coxmos/lend-me-your-ear/issues) ，或发邮件至 [ear@xiaoyuu.ga](mailto:ear@xiaoyuu.ga)  .
 
 
 
@@ -144,7 +144,11 @@ https://ear.xiaoyuu.ga/rss.xml
   new Valine({
     el: '#vcomments',
     appId: 'YyRaVGADEqm0orpU5LMt8e57-MdYXbMMI',
-    appKey: 'e7TXgv9xBumHshzRfG0TzXa3'
+    appKey: 'e7TXgv9xBumHshzRfG0TzXa3',
+    placeholder: '欢迎留言～ 耳朵借我 👂',
+    visitor: true,
+    recordIP: true,
+    avatar:'robohash'
   })
 </script>
 
