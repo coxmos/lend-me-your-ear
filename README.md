@@ -12,9 +12,12 @@
 
 ### 通知
 
-本项目在 Spotify 正式上线啦 🎉
+<img src="https://cdn.jsdelivr.net/gh/coxmos/lend-me-your-ear/spotify-podcast-badge-wht-grn-660x160.svg" alt="spotify" style="zoom:50%;" />
 
-Spotify 用户请直接搜索「耳朵借我」，即可收听节目～
+
+本项目在 Spotify 正式上线啦 🎉  
+
+Spotify 用户请直接搜索「耳朵借我」，即可收听节目～  
 
 <img src="https://cdn.jsdelivr.net/gh/coxmos/lend-me-your-ear/static/spotify.png" alt="avatar" style="zoom:60%;" />
 
