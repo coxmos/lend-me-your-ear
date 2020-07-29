@@ -12,7 +12,7 @@
 
 ### 通知
 
-<img src="https://cdn.jsdelivr.net/gh/coxmos/lend-me-your-ear/spotify-podcast-badge-wht-grn-660x160.svg" alt="spotify" style="zoom:50%;" />
+![](https://cdn.jsdelivr.net/gh/coxmos/lend-me-your-ear/spotify-podcast-badge-wht-grn-660x160.svg)
 
 
 本项目在 Spotify 正式上线啦 🎉  
