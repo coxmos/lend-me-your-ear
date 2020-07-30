@@ -20,8 +20,24 @@
 
         <description>
 
-            电台节目「耳朵借我」非官方存档。    网址：https://ear.xiaoyuu.ga   邮箱：ear@xiaoyuu.ga
+            电台节目「耳朵借我」非官方存档。 网址：https://ear.xiaoyuu.ga 邮箱：ear@xiaoyuu.ga
         </description>
+        <item>
+            <itunes:episodeType>full</itunes:episodeType>
+            <itunes:explicit>false</itunes:explicit>
+            <itunes:image href="https://cdn.jsdelivr.net/gh/coxmos/lend-me-your-ear/image/20200728.jpeg"/>
+            <enclosure length="86462612" type="audio/mpeg"
+                       url="https://drive.xiaoyuu.ga/0:/2020/20200728%20%E9%A3%9B%E9%B4%BB%E6%A8%82%E5%9C%98%E8%AB%87%E3%80%8A%E7%9C%8B%E6%9C%9B%E3%80%8B%2B%20mini%20live%20%E7%A9%BA%E4%B8%AD%E7%8F%BE%E5%A0%B4.mp3"/>
+            <title>20200728 飛鴻樂團談《看望》+ mini live 空中現場</title>
+            <description>播出曲目：. “7/29 耳朵借我：飛鴻樂團談《看望》+ mini live 空中現場” is published by 馬世芳 in 耳目江湖.
+
+                本集详细介绍及歌单列表,请查看网页:https://medium.xiaoyuu.ga/我是馬世芳/faye-hong-39fbac5cc504
+            </description>
+            <link>https://medium.xiaoyuu.ga/我是馬世芳/faye-hong-39fbac5cc504</link>
+            <guid>a8646261220200728</guid>
+            <pubDate>Tue, 28 Jul 2020 10:00:00 -0000</pubDate>
+            <itunes:duration>7287</itunes:duration>
+        </item>
         <item>
             <itunes:episodeType>full</itunes:episodeType>
             <itunes:explicit>false</itunes:explicit>
