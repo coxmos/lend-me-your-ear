@@ -11,7 +11,7 @@
 
 
 ### 通知
-<a href="https://open.spotify.com/show/3Y3bCgls9iO454FVI83nRn" target="_blank"><img alt="spotify" src="https://cdn.jsdelivr.net/gh/coxmos/lend-me-your-ear/spotify-podcast-badge-wht-grn-660x160.png" style="zoom:60%"></a>
+<a href="https://open.spotify.com/show/3Y3bCgls9iO454FVI83nRn" target="_blank"><img alt="spotify" src="https://cdn.jsdelivr.net/gh/coxmos/lend-me-your-ear/static/spotify-podcast-badge-wht-grn-660x160.svg" style="zoom:60%"></a>
 
 
 
