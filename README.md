@@ -1,17 +1,17 @@
-# 耳朵借我
-
+<h1 align="center">耳朵借我</h1>
+<p align="center">
 此 Repo 为热心网友创建并维护，非官方，旨在为两岸三地的听众朋友提供便捷的收听方式。
+</p>
 
-
-
+<p align="center">
 <img src="https://cdn.jsdelivr.net/gh/coxmos/lend-me-your-ear/avatar.png" alt="avatar" style="zoom:80%;" />
-
+</p>
 
 
 
 
 ### 通知
-<a href="https://open.spotify.com/show/3Y3bCgls9iO454FVI83nRn" target="_blank"><img alt="spotify" src="https://cdn.jsdelivr.net/gh/coxmos/lend-me-your-ear/static/spotify-podcast-badge-wht-grn-660x160.svg" style="zoom:60%"></a>
+<a href="https://open.spotify.com/show/3Y3bCgls9iO454FVI83nRn" target="_blank"><img alt="spotify" src="https://cdn.jsdelivr.net/gh/coxmos/lend-me-your-ear/static/spotify-podcast-badge-wht-grn-660x160.svg" style="zoom:30%"></a>
 
 
 
