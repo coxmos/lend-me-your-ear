@@ -62,7 +62,7 @@ https://ear.xiaoyuu.ga/rss.xml
 
 **Enjoy ！**
 
-<img src="https://cdn.jsdelivr.net/gh/coxmos/lend-me-your-ear/static/preview.png" style="zoom:60%;" />
+<img src="https://cdn.jsdelivr.net/gh/coxmos/lend-me-your-ear/static/preview.png" style="zoom:50%;" />
 
 ##  App 推荐
 
@@ -91,9 +91,9 @@ https://ear.xiaoyuu.ga/rss.xml
 
 ## 节目列表
 
-- 2020（目前 59 期）
+- 2020（目前 60 期）
 
-  更新至 2020/07/27，持续更新中...
+  更新至 2020/07/28，持续更新中...
 
 - 2019（共 105 期全）
 
@@ -105,8 +105,7 @@ https://ear.xiaoyuu.ga/rss.xml
 
 ## 计划 Todo
 
-1. 测试不同 App 情况。
-2. 坚持更新 XD
+1. 坚持更新 XD
 
 
 
