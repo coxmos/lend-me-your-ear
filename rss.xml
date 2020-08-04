@@ -19,9 +19,38 @@
         <itunes:complete>no</itunes:complete>
 
         <description>
-
             电台节目「耳朵借我」非官方存档。 网址：https://ear.xiaoyuu.ga 邮箱：ear@xiaoyuu.ga
         </description>
+        <item>
+            <itunes:episodeType>full</itunes:episodeType>
+            <itunes:explicit>false</itunes:explicit>
+            <itunes:image href="https://cdn.jsdelivr.net/gh/coxmos/lend-me-your-ear/image/20200803.jpeg"/>
+            <enclosure length="86519192" type="audio/mpeg"
+                       url="https://drive.xiaoyuu.ga/0:/2020/20200803%20%E5%BC%B5%E9%9B%85%E6%B7%B3%E8%AB%87%E3%80%8A%E6%88%91%E4%BD%8F%E5%9C%A8%E4%B8%80%E5%80%8B%E5%B3%B6%E4%B8%8A%E3%80%8Bfeat%E8%A3%BD%E4%BD%9C%E4%BA%BA%E6%9F%AF%E6%99%BA%E8%B1%AA.mp3"/>
+            <title>20200803 張雅淳談《我住在一個島上》feat製作人柯智豪</title>
+            <description>一個年輕女孩是怎麼會用月琴作為創作樂器，寫起了台語歌的呢？光細細回溯這件事，就應該是一則有趣的故事吧。. “8/3 耳朵借我：張雅淳談《我住在一個島上》 feat. 製作人柯智豪” is
+                published by 馬世芳 in 耳目江湖.
+
+                本集详细介绍及歌单列表,请查看网页:https://medium.xiaoyuu.ga/我是馬世芳/yachunsan-blaireko-2f06618a53dc
+            </description>
+            <link>https://medium.xiaoyuu.ga/我是馬世芳/yachunsan-blaireko-2f06618a53dc</link>
+            <guid>a8651919220200803</guid>
+            <pubDate>Mon, 03 Aug 2020 10:00:00 -0000</pubDate>
+            <itunes:duration>7284</itunes:duration>
+        </item>
+        <item>
+            <itunes:episodeType>full</itunes:episodeType>
+            <itunes:explicit>false</itunes:explicit>
+            <itunes:image href="https://cdn.jsdelivr.net/gh/coxmos/lend-me-your-ear/image/20200804.jpeg"/>
+            <enclosure length="86395740" type="audio/mpeg"
+                       url="https://drive.xiaoyuu.ga/0:/2020/20200804%20%E5%B0%88%E8%A8%AA%E5%AE%89%E6%BA%A5.mp3"/>
+            <title>20200804 專訪安溥</title>
+            <description>本集暫無介绍，後期會補上。</description>
+            <link>https://ear.xiaoyuu.ga</link>
+            <guid>a8639574020200804</guid>
+            <pubDate>Tue, 04 Aug 2020 10:00:00 -0000</pubDate>
+            <itunes:duration>7287</itunes:duration>
+        </item>
         <item>
             <itunes:episodeType>full</itunes:episodeType>
             <itunes:explicit>false</itunes:explicit>
