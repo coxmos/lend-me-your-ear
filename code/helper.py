@@ -74,9 +74,9 @@ def handle_file(base_path, filename):
         return None
     base_audio_url = 'https://one.xiaoyuu.ga/耳朵借我'
     filepath = os.path.join(base_path, filename)
-    date = filename.split(' ', 2)[1]
+    date = filename.split(' ', 2)[0]
     year = date[:4]
-    name = filename.split(' ', 2)[2].rsplit('.', 1)[0]
+    name = filename.split(' ', 2)[1].rsplit('.', 1)[0]
     size = os.path.getsize(filepath)
     url = f'{base_audio_url}/{year}/{parse.quote(filename)}'
     guid = 'a' + str(size) + str(date)
@@ -111,7 +111,7 @@ def handle_file(base_path, filename):
 
 
 def rss_generator(base_url, infos):
-    rss_file = os.path.join(base_url, 'rss.xml')
+    rss_file = 'rss.xml'
     root = ET.Element('root')
 
     for info in infos:
@@ -181,6 +181,6 @@ def read_description():
 
 
 if __name__ == '__main__':
-    # main()
+    main()
 
-    print(read_description())
+    # print(read_description())
