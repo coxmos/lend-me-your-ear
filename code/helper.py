@@ -74,9 +74,9 @@ def handle_file(base_path, filename):
         return None
     base_audio_url = 'https://one.xiaoyuu.ga/耳朵借我'
     filepath = os.path.join(base_path, filename)
-    date = filename.split(' ', 2)[0]
+    date = filename.split(' ', 1)[0]
     year = date[:4]
-    name = filename.split(' ', 2)[1].rsplit('.', 1)[0]
+    name = filename.split(' ', 1)[1].rsplit('.', 1)[0]
     size = os.path.getsize(filepath)
     url = f'{base_audio_url}/{year}/{parse.quote(filename)}'
     guid = 'a' + str(size) + str(date)
