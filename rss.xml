@@ -1,3 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <rss xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" version="2.0">
     <channel>
         <title>耳朵借我</title>
@@ -15,11 +16,39 @@
             <itunes:email>ear@xiaoyuu.ga</itunes:email>
         </itunes:owner>
 
-        <description>
-            <![CDATA[<p>把耳朵借給馬世芳吧，电台节目「耳朵借我」非官方存档。持续更新中，欢迎关注👏🏻</p><p>另外在Spotify上也有「音樂五四三」,欢迎收听。</p><p>如有問題或者建議，请在<a href="https://ear.xiaoyuu.ga">ear.xiaoyuu.ga</a>底部留言，或者发邮件至 <a href="mailto:ear@xiaoyuu.ga">ear@xiaoyuu.ga</a>。</p>]]>
+        <description><![CDATA[把耳朵借給馬世芳吧，电台节目「耳朵借我」非官方存档。
+持续更新中，欢迎关注👏🏻
+另外在Spotify上也有「音樂五四三」,欢迎收听。
+如有問題或者建議，请在 ear.xiaoyuu.ga 底部留言，或者发邮件至 ear@xiaoyuu.ga]]>
         </description>
+
         <item>
-	    <itunes:image href="https://cdn.jsdelivr.net/gh/coxmos/lend-me-your-ear/image/20200824.jpg"/>
+            <itunes:image href="https://cdn.jsdelivr.net/gh/coxmos/lend-me-your-ear/image/20200825.jpeg"/>
+            <enclosure length="107749240" type="audio/mpeg"
+                       url="https://one.xiaoyuu.ga/耳朵借我/2020/20200825%20%E5%B0%88%E8%A8%AA%E8%98%87%E5%A9%AD%E3%80%81%E4%BC%83%E5%A9%B7%E8%AB%87%E3%80%8C2020%E6%B3%B0%E9%9B%85%E9%9F%B3%E6%A8%82%E7%AF%80%E3%80%8D.mp3"/>
+            <title>專訪蘇婭、伃婷談「2020泰雅音樂節」</title>
+            <description><![CDATA[是的就是當年和李雨寰一起組 dmDM 的那個蘇婭！
+            播出曲目：
+            蘇婭 / 神祕谷之聲（Live at Alian963）
+            溫嵐 / 相聚歌
+            羅美玲 / 泰雅情歌
+            No Name、雷諾、榮忠豪 / 傳承
+            GUTS樂團 / 獵人
+            Austin / Lokah Su Ga 泰坦
+            蘇凱燕 / Isu Kayal
+            史瓦力 / Laqi不要打狗
+            璽恩 / 你是我的光
+            合唱 / 莎韻 Dozo
+            把耳朵借給馬世芳吧，电台节目「耳朵借我」非官方存档。
+            如有問題或者建議，请在 https://ear.xiaoyuu.ga 底部留言，或者发邮件至 ear@xiaoyuu.ga .]]>
+            </description>
+            <guid>a10774924020200825</guid>
+            <pubDate>Tue, 25 Aug 2020 10:00:00 -0000</pubDate>
+            <season>2020</season>
+        </item>
+
+        <item>
+            <itunes:image href="https://cdn.jsdelivr.net/gh/coxmos/lend-me-your-ear/image/20200824.jpg"/>
             <enclosure length="86559784" type="audio/mpeg"
                        url="https://drive.xiaoyuu.ga/0:/2020/20200824.mp3"/>
             <title>八十八顆芭樂籽談《我的心正為你這個中年翹臀燃燒著》</title>
