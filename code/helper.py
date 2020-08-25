@@ -94,8 +94,8 @@ def handle_file(base_path, filename):
     if link != '':
         resp = handle_response(do_task(link))
         download_image(date, resp['image'])
-        description += f'<p></p><p>本集详细介绍及歌单列表,请查看网页：<a href="{link}">點我</a></p>'
-    description += f'<p></p><p>把耳朵借給馬世芳吧，电台节目「耳朵借我」非官方存档。</p> 如有問題或者建議，请在<a href="https://ear.xiaoyuu.ga">ear.xiaoyuu.ga</a>底部留言，或者发邮件至 <a href="mailto:ear@xiaoyuu.ga">ear@xiaoyuu.ga</a>。</p>]]>'
+        description += f'\n本集详细介绍及歌单列表,请查看网页：{link}'
+    description += f'\n把耳朵借給馬世芳吧，电台节目「耳朵借我」非官方存档。\n如有問題或者建議，请在 https://ear.xiaoyuu.ga 底部留言，或者发邮件至 ear@xiaoyuu.ga .]]>'
 
     return {
         'title': name,
@@ -167,7 +167,8 @@ def main():
 def add_p_label(lines=[]):
     text = ''
     for line in lines:
-        text += f'<p>{line}</p>'
+        # text += f'<p>{line}</p>'
+        text += f'{line}\n'
     return text
 
 
