@@ -4,14 +4,14 @@
 </p>
 
 <p align="center">
-<img src="https://cdn.jsdelivr.net/gh/coxmos/lend-me-your-ear/avatar.png" alt="avatar" style="zoom:80%;" />
+<img src="https://cdn.jsdelivr.net/gh/coxmos/lend-me-your-ear@master/avatar.png" alt="avatar" style="zoom:80%;" />
 </p>
 
 
 
 
 ### 通知
-<a href="https://open.spotify.com/show/3Y3bCgls9iO454FVI83nRn" target="_blank"><img alt="spotify" src="https://cdn.jsdelivr.net/gh/coxmos/lend-me-your-ear/static/spotify-podcast-badge-wht-grn-660x160.svg" style="zoom:30%"></a>
+<a href="https://open.spotify.com/show/3Y3bCgls9iO454FVI83nRn" target="_blank"><img alt="spotify" src="https://cdn.jsdelivr.net/gh/coxmos/lend-me-your-ear@master/static/spotify-podcast-badge-wht-grn-660x160.svg" style="zoom:30%"></a>
 
 
 
@@ -20,7 +20,7 @@
 
 Spotify 用户请直接搜索「耳朵借我」，即可收听节目～  
 
-<img src="https://cdn.jsdelivr.net/gh/coxmos/lend-me-your-ear/static/spotify.png" alt="avatar" style="zoom:60%;" />
+<img src="https://cdn.jsdelivr.net/gh/coxmos/lend-me-your-ear@master/static/spotify.png" alt="avatar" style="zoom:60%;" />
 
 
 
@@ -50,19 +50,19 @@ https://ear.xiaoyuu.ga/rss.xml
 
 **以 iOS 苹果自家的 Podcast App 为例**
 
-<img src="https://cdn.jsdelivr.net/gh/coxmos/lend-me-your-ear/static/apple_podcast.png" style="zoom:40%;" />
+<img src="https://cdn.jsdelivr.net/gh/coxmos/lend-me-your-ear@master/static/apple_podcast.png" style="zoom:40%;" />
 
 **使用步骤如下**
 
 
 
-![](https://cdn.jsdelivr.net/gh/coxmos/lend-me-your-ear/static/step.jpeg)
+![](https://cdn.jsdelivr.net/gh/coxmos/lend-me-your-ear@master/static/step.jpeg)
 
 
 
 **Enjoy ！**
 
-<img src="https://cdn.jsdelivr.net/gh/coxmos/lend-me-your-ear/static/preview.png" style="zoom:50%;" />
+<img src="https://cdn.jsdelivr.net/gh/coxmos/lend-me-your-ear@master/static/preview.png" style="zoom:50%;" />
 
 ##  App 推荐
 
